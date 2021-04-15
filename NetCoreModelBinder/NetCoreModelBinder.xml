@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreModelBinder</name>
+    </assembly>
+    <members>
+        <member name="T:NetCoreModelBinder.ProductEntityBinder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NetCoreModelBinder.ProductEntityBinder.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NetCoreModelBinder.ProductEntityBinder.BindModelAsync(Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext)">
+            <summary>
+            
+            </summary>
+            <param name="bindingContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NetCoreModelBinder.Controllers.ValuesController">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Get(NetCoreModelBinder.Models.ProductModel)">
+            <summary>
+            GET api/Values/Get
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Get1(NetCoreModelBinder.Models.ProductModel)">
+            <summary>
+            GET api/Values/Get1
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Get2(System.String,System.String,System.Decimal,System.String)">
+            <summary>
+            GET api/Values/Get2
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <param name="price"></param>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Post(NetCoreModelBinder.Models.ProductModel)">
+            <summary>
+            POST api/Values/Post
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Post1(NetCoreModelBinder.Models.ProductModel)">
+            <summary>
+            POST api/Values/Post1
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Post2(NetCoreModelBinder.Models.ProductModel)">
+            <summary>
+            POST api/Values/Post2
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Controllers.ValuesController.Test(System.String,System.String,System.Decimal,System.String)">
+            <summary>
+            POST api/Values/Test
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <param name="price"></param>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NetCoreModelBinder.Extensions.FormExtension">
+            <summary>
+            Serializing objects to Dictionary
+            </summary>
+        </member>
+        <member name="M:NetCoreModelBinder.Extensions.FormExtension.ToKeyValue(System.Object)">
+             <summary>
+            
+             </summary>
+             <param name="metaToken"></param>
+             <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Extensions.FormExtension.ToFormData(System.Object)">
+            <summary>
+            Serializing object to form data
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreModelBinder.Extensions.FormExtension.GetQueryString(System.Object)">
+            <summary>
+            Refer: https://www.paddingleft.com/2018/04/11/HttpClient-PostAsync-GetAsync-Example/
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NetCoreModelBinder.Models.ProductModel">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:NetCoreModelBinder.Models.ProductModel.Id">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:NetCoreModelBinder.Models.ProductModel.Name">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:NetCoreModelBinder.Models.ProductModel.Price">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:NetCoreModelBinder.Models.ProductModel.Category">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:NetCoreModelBinder.ProductEntityBinderProvider">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:NetCoreModelBinder.ProductEntityBinderProvider.GetBinder(Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderProviderContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:NetCoreModelBinder.Startup" -->
+        <member name="M:NetCoreModelBinder.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+             <summary>
+            
+             </summary>
+             <param name="configuration"></param>
+        </member>
+        <member name="P:NetCoreModelBinder.Startup.Configuration">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:NetCoreModelBinder.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+             <summary>
+            
+             </summary>
+             <param name="services"></param>
+        </member>
+    </members>
+</doc>
